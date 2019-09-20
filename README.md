@@ -28,7 +28,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 - [ ]  Explain benefit(s) using `client-side routing`?
 
 > Answer:
-
+It allows the page to render quicker in most instances because it doesn't have to refresh/ reload the page. You can reuse Dom elements and download less data.
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
