@@ -5,6 +5,9 @@ import CharacterCard from "./CharacterCard";
 function CharacterList () {
   const [characterList, setCharacterList] = useState ([])
 
+
+
+  useEffect(() => {
   const getCharacterList = () => {
     axios
       .get("https://rickandmortyapi.com/api/character/")
